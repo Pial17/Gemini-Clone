@@ -1,0 +1,85 @@
+.main{
+    flex: 1;
+    min-height: 100vh;
+    padding-bottom: 12px;
+}
+.main .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 22px;
+    padding: 20px;
+    color: #585858;
+}
+.main .nav img{
+    width: 40px;
+    border-radius: 50%;
+}
+.main-container{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-right: -60px;
+}
+.main-container .greet{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 40px 240px 50px;
+    display: flex;
+    flex-direction: column;
+}
+.main-container .greet .a{
+    color: blue;
+}
+.main-container .greet .b{
+    color: rgb(183, 183, 183);
+}
+.main-container .cards{
+    display: flex;
+    margin: 0px 240px 20px;
+    gap:15px;
+}
+.main-container .cards .card{
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    background: #eff1f9;
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 10px;
+    flex-direction: column;
+}
+.main-container .cards .card p{
+    margin-bottom: 35px;
+}
+.main-container .cards .card img{
+    width: 25px;
+    margin-top: 40px;
+    margin-left: 115px;
+    background: white;
+    padding: 4px;
+    border-radius: 10px;
+}
+.main-container .text-here{
+    width: 700px;
+    display: flex;
+    margin: 50px 240px 20px;
+    height: 40px;
+    gap:15px;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 30px;
+    background: #eff1f9;
+}
+.main-container .text-here input{
+    width: 600px;
+    height: 40px;
+    border: none;
+    background: #eff1f9;
+    border-radius: 30px;
+}
+.main-container .text-here img{
+    width: 20px;
+    height: 20px;
+    
+}

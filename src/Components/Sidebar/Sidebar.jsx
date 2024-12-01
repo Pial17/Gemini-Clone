@@ -3,7 +3,7 @@ import './sidebar.css';
 import { assets } from '../../assets/assets';
 
 const Sidebar = () => {
-    const [extended, setExtended] = useState(true);
+    const [extended, setExtended] = useState(false);
     return (
         <div className='sidebar'>
             <div className="top">
@@ -17,7 +17,11 @@ const Sidebar = () => {
                     <p className="recent-chat">Recent</p>
                     <div className="recent-entry">
                         <img src={assets.message_icon} alt=''/>
-                        <p>WHat is React...</p>
+                        <p>WHat is React ...</p>  
+                    </div>
+                    <div className="recent-entry">
+                        <img src={assets.message_icon} alt=''/>
+                        <p>WHat is React ...</p>  
                     </div>
                 </div>
                 :null}

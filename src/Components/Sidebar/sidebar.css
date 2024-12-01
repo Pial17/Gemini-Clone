@@ -39,7 +39,7 @@
 .sidebar .recent-entry{
     display: flex;
     gap: 10px;
-    align-items: start;
+    align-items: flex-start;
     width: 100%;
     padding: 10px;
     padding-right: 40px;
